@@ -77,19 +77,6 @@ async function postData() {
             });
             const responseData = await response.json();
             console.log(responseData);
-
-            // Tampilkan respons di HTML
-            // const productHTML = `
-            //     <div class="product">
-            //         <h2>PRODUK:</h2>
-            //         <p>ID Produk: ${responseData.id}</p>
-            //         <p>Nama Produk: ${responseData.nama_produk}</p>
-            //         <p>Jumlah: ${responseData.jumlah}</p>
-            //         <p>Deskripsi: ${responseData.deskripsi}</p>
-            //         <img src="${responseData.foto}" alt="Produk ${responseData.id}" width="500" height="600">
-            //     </div>
-            // `;
-
             const productHTML = `
             <div class="card">
             <img src="${responseData.foto}" alt="Profile Picture">

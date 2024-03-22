@@ -16,7 +16,8 @@ nav .logo {
     font-size: 1.5em;
     font-weight: bold;
     text-decoration: none;
-    color: #fff;
+    color: white;
+    text-decoration: underline;
     margin-left: 20px;
 }
 
